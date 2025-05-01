@@ -2,6 +2,7 @@ import math
 from decimal import Decimal, getcontext
 
 # The Chudnovsky Algorithm is similar to the arctan series, but it converges much quicker
+
 # The Chudnovsky formula for π is:
 # \frac{1}{π} = 12 * \sum_{k = 0}^{\infty} \frac{(-1)^k(6k)!(13591409 + 545140134k)}{(3k)!(k!)^3 * 640320^{3k + 3/2}}
 # After some simplifying, we can split the series into 2 seperate parts: and b
